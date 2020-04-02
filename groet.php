@@ -14,20 +14,16 @@
 <?php
 
 
-if(isset($_POST['submit'])) {
-	
+if (isset($_POST['submit'])) {	
 	$reactie = $_POST['cijfer_1'];
 
 
-	if ($reactie == "Hallo computer") 
-	{
+	if ($reactie == "Hallo computer") {
     	echo "Hallo gebruiker!";
 	}
-	if ($reactie == "hallo computer") 
-	{
+	if ($reactie == "hallo computer") {
     	echo "Hallo gebruiker!";
 	}
 	
 }
-
 ?>
