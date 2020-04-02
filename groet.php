@@ -23,7 +23,6 @@ if (isset($_POST['submit'])) {
 	}
 	if ($reactie == "hallo computer") {
     	echo "Hallo gebruiker!";
-	}
-	
+	}	
 }
 ?>
